@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            /* 背景 */
+            .backall {
+                padding: 10px;
+                background-image: url("images/IMG_8816.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: left bottom;
+                background-size: cover;
+                margin: 0px auto;
+                /* border: 1px solid red; */
+            }
+            .wrapper {
+                max-width: 1440;
+                max-height: auto;
+                margin: 0 auto;
+            }
+
+            .d-flex {
+                display: flex;
+            }
+            /* 登入盒子 */
+            .boxinit {
+                max-width: 960px;
+                max-height: 768px;
+                border-radius: 0px 40px 40px 0px;
+                margin: 150px auto;
+                background: #fff;
+                opacity: 0.8;
+                /* border: 1px solid red; */
+            }
+            /* 左邊LOGO */
+            .innhbox {
+                width: 550px;
+                height: 600px;
+            }
+            /* LOGO圖 */
+            .innhbox {
+                background: #132743;
+            }
+            .innhbox img {
+                display: block;
+                max-height: 30%;
+                align-items: center;
+                justify-content: center;
+                margin:200px auto;
+                /* border: 1px solid red; */
+            }
+
+            /* 帳號密碼 */
+            .textbox {
+                margin: 0px auto;
+                align-items: center;
+                justify-content: center;
+                /* border: 1px solid red; */
+            }
+            /* 輸入改透明 */
+            input {
+                outline: none;
+                border: 1px solid transparent;
+            }
+            /* 底色線 */
+            .decoration {
+                margin: 0px auto;
+                width: 230px;
+                border: 3px solid #d7b98e;
+            }
+            /* 登入按鈕 */
+            .button {
+                background: #2b5f75;
+                width: 60px;
+                border-radius: 20px;
+                color: #fff;
+                /* border: 1px solid red; */
+            }
+        </style>
+    </head>
+    <body>
+        <aside>
+            <div class="backall">
+                <div class="boxinit wrapper d-flex">
+                    <div class="innhbox">
+                        <img class="d-flex" src="images/logo1.png" alt="" />
+                    </div>
+                    <div class="textbox d-flex">
+                        <form action="">
+                            <table>
+                                <th>
+                                    <tr class="d-flex">
+                                        帳號:<input type="text" />
+                                        <img
+                                            src="images/person-24px.svg"
+                                            alt=""
+                                        />
+                                    </tr>
+                                    <div class="decoration"></div>
+                                    <tr class="d-flex">
+                                        密碼:<input type="password" />
+                                        <img
+                                            src="images/vpn_key-24px.svg"
+                                            alt=""
+                                        />
+                                    </tr>
+                                    <div class="decoration"></div>
+                                    <t class="d-flex"
+                                        ><input
+                                            class="button"
+                                            type="submit"
+                                            value="登入"
+                                    /></t>
+                                </th>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </body>
+</html>

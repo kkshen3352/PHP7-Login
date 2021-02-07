@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Noto+Serif+TC:wght@300&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans TC", sans-serif;
+    font-family: "Noto Serif TC", serif;
+}
+/* 背景 */
+.backall {
+    padding: 10px;
+    background-image: url("images/IMG_8816.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+    background-size: cover;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+.wrapper {
+    max-width: 1440;
+    max-height: auto;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+/* 登入盒子 */
+.boxinit {
+    max-width: 960px;
+    max-height: 768px;
+    border-radius: 0px 40px 40px 0px;
+    margin: 150px auto;
+    background: #fff;
+    opacity: 0.8;
+    /* border: 1px solid red; */
+}
+/* 左邊LOGO */
+.innhbox {
+    width: 550px;
+    height: 600px;
+}
+/* LOGO圖 */
+.innhbox {
+    background: #132743;
+}
+.innhbox img {
+    display: block;
+    max-height: 30%;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto;
+    /* border: 1px solid red; */
+}
+
+/* 帳號密碼 */
+.textbox {
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+/* 輸入改透明 */
+input {
+    outline: none;
+    border: 1px solid transparent;
+}
+.trmag {
+    margin: 30px;
+    /* border: 1px solid red; */
+}
+/* 底色線 */
+.decoration {
+    margin: 0px auto;
+    width: 230px;
+    border: 2px solid #d7b98e;
+}
+/* 登入按鈕 */
+.button {
+    background: #2b5f75;
+    width: 60px;
+    border-radius: 20px;
+    color: #fff;
+    /* border: 1px solid red; */
+}
